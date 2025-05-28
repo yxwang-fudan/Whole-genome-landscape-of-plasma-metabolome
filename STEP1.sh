@@ -1,5 +1,6 @@
 ##REGENIE
 #https://rgcgithub.github.io/regenie/options
+#!/bin/bash
 regenie \
   --step 1 \
   --bed /path/to/your/data/bed/file \
