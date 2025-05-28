@@ -1,6 +1,6 @@
 # Whole-genome-landscape-of-plasma-metabolome
 ## Description
-This repository contains Linux/R code for the analysis implemented in the genetic atlas of the human plasma metabolome, as described in the paper 'Whole-Genome Landscape of the Plasma Metabolome.
+This repository contains Linux/R code for the analysis implemented in the genetic atlas of the human plasma metabolome, as described in the paper 'Whole-Genome Landscape of the Plasma Metabolome'.
 ![EFig 1 Graphical abstract](https://github.com/user-attachments/assets/c5c7dc74-3609-470e-b54d-6694bf0143ff)  
 Metabolome-genomic results and summary statistics generated in this study are publicly available through our interactive portal (https://metabolome-whole-genome-landscape.com/).
 ## License
