@@ -1,13 +1,13 @@
 regenie \
   --step 2 \
-  --keep ./Metabolome_WGS/data/Caucasian_metabolome_wgs_${set}_sample_ids.txt \
-  --bed ../public/WGS_35W/Q0_unre_Caucasian_c${chr} \
-  --phenoFile ./Metabolome_WGS/data/Caucasian_regenie_phenofile.txt \
-  --covarFile ./Metabolome_WGS/data/Caucasian_regenie_corvarfile.txt \
+  --keep /path/to/your/data/${set}_sample_ids.txt \
+  --bed /path/to/your/data/bed_file_chr${chr} \
+  --phenoFile /path/to/your/data/phenofile.txt \
+  --covarFile /path/to/your/data/covariatefile.txt \
   --catCovarList Sex,Ethnicity,Month,Center,Provider,Batch \
   --maxCatLevels 26 \
-  --pred ./Metabolome_WGS/${set}_step1/${set}_step1_nmr_pred.list \
+  --pred /path/to/your/data/${set}_step1/${set}_step1_pred.list \
   --apply-rint \
   --force-qt \
   --bsize 1000 \
-  --out ./Metabolome_WGS/step2_single/${set}_chr${chr}_single_variant_step2_Caucasian
+  --out /path/to/your/output/${set}_chr${chr}_single_variant_step2_output
